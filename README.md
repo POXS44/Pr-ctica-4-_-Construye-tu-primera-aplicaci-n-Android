@@ -15,6 +15,8 @@
 
 
 ## FUNCIONALIDAD
+Esta práctica tiene como objetivo explorar el IDE Android Studio y crear su primera
+aplicación Hola Mundo.
 
 ### ENUNCIADO
 ### I. Android Studio y Mi primer Hola Mundo
