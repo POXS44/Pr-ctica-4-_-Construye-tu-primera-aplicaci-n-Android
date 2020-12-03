@@ -181,3 +181,103 @@ Android
 
 
 
+### Tarea 1.3: Use un AVD (Android Virtual Device)
+
+Usará el administrador de dispositivos virtuales Android (AVD) para crear un
+dispositivo virtual (también conocido como emulador) que simula la configuración de
+un tipo determinado de dispositivo Android y usar ese dispositivo virtual para ejecutar la
+aplicación.
+
+
+###  Crear un dispositivo virtual de Android (AVD)
++ En Android Studio, seleccione Herramientas > Android > Administrador de
+AVD o haga clic en el icono Administrador de AVD en la barra de
+herramientas. Aparecerá la pantalla Sus dispositivos virtuales. Si ya ha creado
+dispositivos virtuales, la pantalla los muestra (como se muestra en la figura
+siguiente); de lo contrario se ve una lista en blanco.
+
+<img src="img\16.JPG"/>
+
+
++  Haga clic en + Crear dispositivo virtual. Aparece la ventana Seleccionar
+hardware que muestra una lista de dispositivos de hardware preconfigurados.
+Para cada dispositivo, la tabla proporciona una columna para su tamaño de
+visualización diagonal (Tamaño), resolución de pantalla en píxeles
+(Resolución) y densidad de píxeles (Densidad).
+
+<img src="img\17.JPG"/>
+
++ Haga clic en la pestaña Recomendado si aún no está seleccionada y elija qué
+versión del sistema Android se ejecutará en el dispositivo virtual (como Pie).
+<img src="img\18.JPG"/>
+
+
+Hay muchas más versiones disponibles que las que se muestran en la
+pestaña Recomendado. Mira las pestañas Imágenes x86 y Otras imágenes para verlas.
+Si un vínculo de descarga está visible junto a una imagen del sistema que desea utilizar,
+aún no está instalado. Haga clic en el vínculo para iniciar la descarga y haga clic
+en Finalizar cuando haya terminado.
+
+
++ Ejecute la aplicación en el dispositivo virtual
+o En Android Studio, elija Run > Ejecutar aplicación o haga clic en el
+icono Ejecutar de la barra de herramientas.
+<img src="img\Captura de pantalla (166).png"/>
+
++ En la ventana Seleccionar destino de implementación, en Dispositivos virtuales
+disponibles, seleccione el dispositivo virtual que acaba de crear y haga clic en
+Aceptar.
+
++ Este paso puede variar por si tiene un dispositivo predeterminado seleccionado
+
+### Cuando finalice puede observar un resultado semejante al siguiente:
+
+<img src="img\19.JPG"/>
+
+
+## Ejecute la aplicación en un dispositivo físico
+
+o Muestre todos los pasos necesarios para ejecutar su aplicación utilizando su
+dispositivo físico
+
+
+En el dispositivo fisico, dirijirse a Configuracion> Acerca del Telefono> Pulsar varias veces sobre el Numero de Compilacion hasta que muestre un mensaje que diga "Ya eres desarrollador"
+
+Las opciones de desarrollador varian en dependencia al modelo del dispositivo .
+
+o Encienda la depuración USB en su dispositivo físico
+
+Luego dirijirse a las Opciones de Desarrollador previamente activadas, y dentro de ese menú buscar y activar el apartado de "Depuracion USB" .
+
+
+<img src="img\20.jpg"/>
+o Ejecute la aplicación en su dispositivo físico
+
+<img src="img\21.jpg"/>
+
+
+### Cambiar la configuración de Gradle de la aplicación
+
++ Cambiar la versión mínima del SDK para la aplicación
+
+<img src="img\22.JPG"/>
+<img src="img\23.JPG"/>
+<img src="img\24.JPG"/>
+
++ Encuentre el fichero build.gradle (Module:app)
+
++ Busque la propiedad minSdkVersion a un nivel más bajo
+
++ Sincronice la nueva configuración de Gradle
+
+
+<img src="img\25.JPG"/>
+
+### Utilice instrucciones de Log para su aplicación
+
+
++ Ver el panel logcat y sus diferentes opciones de vista
+
+<img src="img\26.JPG"/>
+
+
